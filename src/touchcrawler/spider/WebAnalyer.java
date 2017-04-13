@@ -1,4 +1,4 @@
-package spider.touchcrawler;
+package touchcrawler.spider;
 
 /**
  * Used for analysis and process web page

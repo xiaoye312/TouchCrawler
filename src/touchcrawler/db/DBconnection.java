@@ -1,4 +1,4 @@
-package db.touchcrawler;
+package touchcrawler.db;
 
 /**
  * Created by xiao on 2017/4/12.

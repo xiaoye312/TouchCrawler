@@ -1,6 +1,7 @@
 package touchcrawler.spider;
 
 import touchcrawler.spider.Analyer.BaseAnalyzer;
+import touchcrawler.utils.CrawllerConfig;
 
 import java.util.HashMap;
 
@@ -23,7 +24,8 @@ public class AnalyzerDispatcher {
         return this.analyzer.analysis();
     }
 
-    public void setAnalyzer(Object webContent) {
+    public void setAnalyzer(Object webContent, CrawllerConfig config) {
         this.analyzer.setWebContent(webContent);
+        this.analyzer.setAnalysisConfig(config);
     }
 }
